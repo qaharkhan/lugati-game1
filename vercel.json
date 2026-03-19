@@ -1,6 +1,12 @@
 {
   "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
   "routes": [
+    {
+      "src": "/peerjs.min.js",
+      "dest": "/peerjs.min.js"
+    },
     {
       "src": "/",
       "dest": "/index.html",
@@ -26,10 +32,6 @@
           "key": "Content-Security-Policy", 
           "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://api.anthropic.com https://*.peerjs.com wss://*.peerjs.com stun:* turn:* https://global.relay.metered.ca wss://global.relay.metered.ca; worker-src blob:; frame-ancestors 'none';" 
         }
-        {
-  "cleanUrls": true,
-  "trailingSlash": false
-}
       ]
     }
   ]
