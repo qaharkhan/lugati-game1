@@ -1,0 +1,9 @@
+{
+  "name": "lugati-game",
+  "version": "1.0.0",
+  "description": "لُغَتِي — لعبة تعليمية وثقافية تفاعلية",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  }
+}
